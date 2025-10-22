@@ -12,6 +12,8 @@ public class Studente {
 	
 	String ciRiprovoSonoPaoloCiaoOskarForzaInterAhAhAHAHAHAHAH;
 	
+	String uffa; ///lol
+	
 	public Studente() {}
 	
 	public Studente(String matricola, String nome, String cognome, int eta, String insulto) {
