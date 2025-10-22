@@ -8,6 +8,9 @@ public class Programma {
 		
 		Studente st = new Studente("MAT2011", "Oscar", "Diaz", 25, "Sbirulino");
 		System.out.println(st.toString()); 
+		
+		Studente s1 = new Studente("MAT2011", "Primo", "Negro", 25, "Hamico");
+		System.out.println(s1.toString());
 
 	}
 
