@@ -10,7 +10,7 @@ public class Studente {
 	private String insulto;
 	private int eta;
 	
-	String ciRiprovoSonoPaoloCiaoOskarForzaInter;
+	String ciRiprovoSonoPaoloCiaoOskarForzaInterAhAhAHAHAHAHAH;
 	
 	public Studente() {}
 	
