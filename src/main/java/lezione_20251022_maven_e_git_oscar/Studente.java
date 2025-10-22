@@ -5,15 +5,17 @@ public class Studente {
 	private String matricola;
 	private String nome;
 	private String cognome;
+	private String insulto;
 	private int eta;
 	
 	public Studente() {}
 	
-	public Studente(String matricola, String nome, String cognome, int eta) {
+	public Studente(String matricola, String nome, String cognome, int eta, String insulto) {
 		this.matricola = matricola;
 		this.nome = nome;
 		this.cognome = cognome;
 		this.eta = eta;
+		this.insulto = insulto;
 	}
 
 	public String getMatricola() {
@@ -50,7 +52,17 @@ public class Studente {
 
 	@Override
 	public String toString() {
-		return "Studente [matricola=" + matricola + ", nome=" + nome + ", cognome=" + cognome + ", eta=" + eta + "]";
+		return "Studente [matricola=" + matricola + ", nome=" + nome + ", cognome=" + cognome + ", eta=" + eta + ", insulto=" + insulto + "]";
+	}
+	
+	//Linee di codice aggiunte da Paolo P.
+
+	public String getInsulto() {
+		return insulto;
+	}
+
+	public void setInsulto(String insulto) {
+		this.insulto = insulto;
 	}
 	
 	
