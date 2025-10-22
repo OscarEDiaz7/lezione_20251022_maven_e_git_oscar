@@ -2,6 +2,8 @@ package lezione_20251022_maven_e_git_oscar;
 
 public class Studente {
 	
+	String ciaoOscarSonoPablito;
+	
 	private String matricola;
 	private String nome;
 	private String cognome;
