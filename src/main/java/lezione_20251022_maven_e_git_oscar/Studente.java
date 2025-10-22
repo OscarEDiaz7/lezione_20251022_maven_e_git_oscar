@@ -10,6 +10,8 @@ public class Studente {
 	private String insulto;
 	private int eta;
 	
+	String ciRiprovoSonoPaoloCiaoOskarForzaInter;
+	
 	public Studente() {}
 	
 	public Studente(String matricola, String nome, String cognome, int eta, String insulto) {
