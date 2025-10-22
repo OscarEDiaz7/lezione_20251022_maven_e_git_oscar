@@ -5,7 +5,7 @@ public class Programma {
 	public static void main(String[] args) {
 		
 		Studente st = new Studente("MAT2011", "Oscar", "Diaz", 25, "Sbirulino");
-		System.out.println(st.toString());
+		System.out.println(st.toString()); 
 
 	}
 
