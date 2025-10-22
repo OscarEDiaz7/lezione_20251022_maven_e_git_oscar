@@ -2,20 +2,36 @@ package lezione_20251022_maven_e_git_oscar;
 
 public class Studente {
 	
-	String ciaoOscarSonoPablito;
+	///giochinoo
+	private String doveStaLaPapera;
+	private String cosaFannoOttoCani;
+	private String cosaFaUnGinocchioInDiscesa;
+	private String cittaPreferitaDaiRagni;
+	
+	
+	public String getDoveStaLaPapera() {
+		return "qua";
+	}
 
-	String provaPaoloDisperato2;
+	public String getCosaFannoOttoCani() {
+		return "il canotto";
+	}
+
+	public String getCosaFaUnGinocchioInDiscesa() {
+		return "rotula";
+	}
+
+	public String getCittaPreferitaDaiRagni() {
+		return "Mosca";
+	}
+
+
 	
 	private String matricola;
 	private String nome;
 	private String cognome;
 	private String insulto;
 	private int eta;
-
-	
-	String ciRiprovoSonoPaoloCiaoOskarForzaInterAhAhAHAHAHAHAH;
-	
-	String uffa; ///lol
 	
 	public Studente() {}
 	
