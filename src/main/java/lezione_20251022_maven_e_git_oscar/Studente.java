@@ -3,12 +3,15 @@ package lezione_20251022_maven_e_git_oscar;
 public class Studente {
 	
 	String ciaoOscarSonoPablito;
+
+	String provaPaoloDisperato2;
 	
 	private String matricola;
 	private String nome;
 	private String cognome;
 	private String insulto;
 	private int eta;
+
 	
 	String ciRiprovoSonoPaoloCiaoOskarForzaInterAhAhAHAHAHAHAH;
 	
